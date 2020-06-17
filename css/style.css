@@ -1,0 +1,399 @@
+            header {
+            position: relative;
+        }
+        
+        body {
+            background-color: #f6f6f6;
+            margin: 0;
+            font-family: Verdana, Arial, Helvetica, 'meirio', 'メイリオ', 'Hiragino Maru Gothic Pro', 'ヒラギノ丸ゴ Pro W4', Osaka, 'ＭＳ Ｐゴシック', sans-serif;
+            ;
+        }
+        
+        .wrapper {
+            width: 920px;
+            margin: 0 auto;
+        }
+        
+        .top-line {
+            border: 4px solid #6CC6C4;
+            margin-top: 0;
+        }
+        
+        .header-logo {
+            margin-top: 34px;
+            float: left;
+        }
+        
+        .header-contact {
+            float: right;
+            position: relative;
+            text-align: right;
+        }
+        
+        .header-main {
+            clear: both;
+            background: linear-gradient(#3169d1 0%, #998bfa 100%);
+        }
+        
+        .name {
+            font-size: 10px;
+            margin: 0;
+        }
+        
+        .phone-num {
+            font-size: 25px;
+            margin-top: 12px;
+            letter-spacing: 1px;
+        }
+        
+        .reserve-time {
+            text-align: center;
+            border: 1px solid #d6d6d6;
+            padding: 7px 0;
+            font-size: 10px;
+            margin: 0;
+            position: absolute;
+            top: 65px;
+            left: -5px;
+            width: 220px;
+        }
+        
+        .reserve-time span {
+            color: #b22c00;
+        }
+        
+        .header-li {
+            width: 100%;
+            font-size: 0;
+            table-layout: fixed;
+            display: table;
+            padding-inline-start: 0;
+            position: absolute;
+            top: 110px;
+            background: linear-gradient(#99E1DF 0%, #6CC6C4 100%);
+            border-radius: 6px;
+            border: 1px solid #6CC6C4;
+            color: #fff;
+            font-weight: bold;
+        }
+        
+        .header-li a {
+            display: block;
+            width: 100%;
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        .header-li :hover {
+            opacity: .8;
+            background: linear-gradient(#6CC6C4 0%, #99E1DF 100%);
+        }
+        
+        .header-li li {
+            margin: 0 auto;
+            text-align: center;
+            font-size: 14px;
+            display: table-cell;
+            vertical-align: middle;
+            border-right: 1px solid #6CC6C4;
+            padding: 20px;
+        }
+        
+        .header-main span {
+            display: block;
+            text-align: center;
+            font-size: 10px;
+        }
+        
+        aside {
+            width: 260px;
+            float: left;
+        }
+        
+        .aside-top {
+            clear: both;
+            margin-top: 120px;
+            border: 1px solid #6CC6C4;
+            background-color: #fff;
+            border-radius: 8px 8px 0 0;
+            display: block;
+        }
+        
+        .aside-title {
+            margin: 10px;
+            font-size: 16px;
+            color: #fff;
+            margin: 0;
+            padding: 10px 10px 10px 14px;
+            background-color: #6CC6C4;
+        }
+        
+        .aside-top :not(.aside-title) {
+            background-color: #fff;
+        }
+        
+        aside span {
+            color: #6CC6C4;
+            font-size: 12px;
+            margin-right: 10px;
+        }
+        
+        aside li {
+            border-bottom: 1px solid #6CC6C4;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+        }
+        
+        aside li a {
+            display: block;
+            width: 100%;
+            text-decoration: none;
+            color: black;
+            transition: ease-in-out;
+            font-weight: bold;
+        }
+        
+        .aside-li a:hover {
+            color: #6CC6C4;
+        }
+        
+        .aside-bottom .aside-li a:hover {
+            color: rgb(210, 228, 108);
+        }
+        
+        aside ul {
+            padding-inline-start: 0;
+            list-style: none;
+            margin-top: 10px;
+            font-size: 14px;
+            margin-left: 15px;
+            margin-right: 10px;
+        }
+        
+        .aside-bottom {
+            border: 1px solid #6CC6C4;
+            margin-top: 25px;
+            border-radius: 10px 10px 0 0;
+            background-color: #fff;
+        }
+        
+        .main-img {
+            float: right;
+            margin-top: 120px;
+            position: relative;
+        }
+        
+        .main-img img {
+            width: 640px;
+            height: 280px;
+        }
+        
+        .main-article {
+            width: 640px;
+            height: 428px;
+            position: absolute;
+            top: 515px;
+            left: 564px;
+            background-color: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 0 0 5px 5px;
+        }
+        
+        .topic-title {
+            font-size: 16px;
+            border-bottom: 3px solid #6CC6C4;
+            padding-bottom: 11px;
+            margin-top: 17px;
+            margin-bottom: 30px;
+        }
+        
+        .main-topic {
+            font-size: 13px;
+        }
+        
+        .main-topic dd {
+            border-bottom: dotted 1px #d6d6d6;
+            padding: 0 0 10px 140px;
+            margin: 0 10px 10px 0;
+            display: block;
+            width: 438px;
+            line-height: 20px;
+        }
+        
+        .main-topic dt {
+            font-weight: bold;
+            float: left;
+            margin-top: 0;
+            margin-left: 10px;
+            margin-right: 30px;
+            font-family: Verdana, Arial, Helvetica, 'meirio', 'メイリオ', 'Hiragino Maru Gothic Pro', 'ヒラギノ丸ゴ Pro W4', Osaka, 'ＭＳ Ｐゴシック', sans-serif;
+            ;
+        }
+        
+        footer {
+            margin-top: 848px;
+        }
+        
+        .footer-main {
+            border: 1px solid #6CC6C4;
+            background-color: #6CC6C4;
+            border-radius: 7px;
+            padding: 3px 3px;
+        }
+        
+        .footer-main a {
+            list-style: none;
+            color: #fff;
+            transition: ease-in-out;
+            text-decoration: none;
+            margin-left: 8px;
+        }
+        
+        .footer-main a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer-main span {
+            color: #fff;
+            font-size: 15px;
+        }
+        
+        .footer-main ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        
+        .footer-main li {
+            display: inline;
+            font-size: 13px;
+            margin-right: 20px;
+        }
+        
+        .footer-adress {
+            text-align: right;
+            position: relative;
+            font-size: 13px;
+            border-bottom: 2px solid #6CC6C4;
+            padding: 20px 0 15px 0;
+        }
+        
+        .footer-top {
+            float: left;
+            position: absolute;
+            top: 20px;
+            right: 313px;
+        }
+        
+        .copy-right {
+            text-align: center;
+            font-size: 12px;
+            margin-bottom: 22px;
+        }
+        
+        @media screen and (max-width:483px) {
+            body {
+                margin: 0;
+            }
+            .wrapper {
+                max-width: 483px;
+                height: 789px;
+                margin: 0 auto;
+                box-sizing: border-box;
+            }
+            .top-line {
+                margin: 0;
+                display: block;
+                width: 483px;
+            }
+            .header-logo {
+                display: block;
+                float: none;
+                margin: 0 auto;
+                margin-left: 112px;
+                margin-top: 2px;
+            }
+            .header-contact {
+                text-align: center;
+                float: none;
+            }
+            .name {
+                position: absolute;
+                top: -2px;
+                left: 133px;
+            }
+            .phone-num {
+                position: absolute;
+                top: 10px;
+                right: 132px;
+                letter-spacing: 0.3px;
+            }
+            .header-li {
+                margin-top: 40px;
+            }
+            .reserve-time {
+                position: absolute;
+                top: 60px;
+                left: 130px;
+                padding: 7px 0 6px 0;
+                width: 220px;
+            }
+            .aside-top {
+                margin-top: 250px;
+            }
+            .main-img img {
+                width: 460px;
+                height: auto;
+                margin-top: 0;
+                position: absolute;
+                top: 100px;
+                right: 0;
+                margin: 0 auto;
+                display: block;
+                box-sizing: border-box;
+                margin: 10px 11px 10px 0;
+            }
+            .center-topic {
+                position: relative;
+            }
+            .main-article {
+                position: absolute;
+                top: 490px;
+                left: 0;
+                width: 460px;
+                height: 620px;
+                margin-left: 10px;
+            }
+            aside {
+                width: 469px;
+            }
+            .aside-top {
+                margin-top: 1150px;
+                margin-left: 10px;
+            }
+            .aside-bottom {
+                margin-left: 10px;
+            }
+            .main-topic dt {
+                float: none;
+                margin-left: 0;
+                margin-bottom: 20px;
+            }
+            .main-topic dd {
+                padding-left: 10px;
+                width: 410px;
+            }
+            .footer-main {
+                margin-top: 1650px;
+            }
+            .footer-main {
+                margin-left: 10px;
+                margin-right: 6px;
+                font-size: 25px;
+            }
+            .footer-main li {
+                font-size: 19px;
+            }
+            .footer-top {
+                float: none;
+            }
